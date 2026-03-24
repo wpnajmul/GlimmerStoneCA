@@ -95,6 +95,9 @@ h6,
     position: relative;
     background: var(--primary);
 }
+span.fs-5 {
+    color: #fff !important;
+}
 
 .topbar-right::before {
     position: absolute;
@@ -116,6 +119,7 @@ h6,
 
 .navbar .navbar-brand {
     position: relative;
+    padding-right: 50px;
     height: 75px;
     display: flex;
     align-items: center;
